@@ -1,35 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/051bfd6557.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
 
         <div class="logo">
-                <img src="img/logo_principal/57226437_1648615158605779_3389021765421236224_n.jpg" alt="">
+                <img src="img/logo_principal/imagen_logo_tenampa.png" alt="">
         </div>
           <div class="enlaces">
                 <ul>
-                    <li> <a href="">Inicio</a></li>
+                    <li> <a href="index.html">Inicio</a></li>
                     <li><a href="">Noticias</a></li>
                     <li><a href="">Quiénes somos</a></li>
                     <li><a href="">Eventos</a></li>
-                    <li><a href="">Contacto</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
                 </ul>
           </div>
             <div class="acceso">
 
-                <button class="registrate">Regístrate</button>
+                <a href="registro.html"><button class="registrate">Regístrate</button></a>
                 <input class="acceder" type="button" value="Acceder">
             </div>
 
     </header>
+
+    <main class="main_registro">
+
+        <div class="contenedor_registro">
+
+            <h2>Regístrate en nuestro portal</h2>
+            <p>Asegúrate de llenar todos los campos</p>
+
+            <form action="" method="get">
+
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre"> 
+
+                <input type="email" name="email" placeholder="Ingresa tu correo electrónico"> 
+
+                <input type="text" name="contrasena" placeholder="Establece tu contraseña">
+                <input type="text" name="revisa_contrasena" placeholder="Verifica tu contraseña">
+
+            </form>
+
+        </div>
+
+    </main>
     
 </body>
 </html>

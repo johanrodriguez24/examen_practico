@@ -109,9 +109,10 @@ header{
 .secundaria{
     width: 100%;
     height: 30rem;
-    border: 0.1rem solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 2rem;
+    
 }
 
 .titulo_seccion_secundaria{
@@ -131,9 +132,44 @@ header{
     align-items: center;
 }
 
+.card1 h4{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
 .card1 img{
     width: 90%;
     height: 70%;
+}
+
+.card1 p{
+    padding-bottom: 1rem;
+}
+.card2 img{
+    width: 90%;
+    height: 70%;
+}
+.card2 p{
+    padding-bottom: 1rem;
+}
+.card2 h4{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.card3 img{
+    width: 90%;
+    height: 70%;
+}
+.card3 p{
+    padding-bottom: 1rem;
+}
+.card3 h4{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 .card2{
     display: flex;
@@ -173,8 +209,8 @@ header{
 .contenedor_formulario{
     width: 100%;
     max-width: 30rem;
-    height: 30rem;
-    background:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+    height: 35rem;
+    background: linear-gradient(0deg, rgba(247,235,235,1) 0%, rgba(237,98,98,1) 61%, rgba(245,231,229,1) 88%, rgba(233,243,245,1) 100%);
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -184,6 +220,14 @@ header{
     border: 0.1rem solid black;
     border-radius: 1rem;
     
+}
+
+.politicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    gap: 1rem;
 }
 
 .informacion_formulario p{
@@ -219,4 +263,64 @@ header{
 
 .caja2 input{
     font-size: 1.2rem;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+}
+
+/* -------------------footer---------------- */
+
+footer{
+    width: 100%;
+    height: 10rem;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(247,235,140,1) 61%, rgba(240,238,217,1) 88%, rgba(233,243,245,1) 100%);
+    margin-top: 3rem;
+}
+
+
+.redes h3{
+    text-align: center;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    gap: 8rem;
+    font-size: 2rem;
+}
+
+/* ---------Registro---------- */
+
+.main_registro{
+    display: flex;
+}
+
+.contenedor_registro{
+    width: 100%;
+    max-width: 30rem;
+    height: 35rem;
+    background: linear-gradient(0deg, rgba(247,235,235,1) 0%, rgba(237,98,98,1) 61%, rgba(245,231,229,1) 88%, rgba(233,243,245,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    
+}
+
+.contenedor_registro form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor_registro input{
+    margin-top: 1rem;
+}
+
+.contenedor_registro h2{
+    margin-top: 5rem;
 }
