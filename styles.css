@@ -278,7 +278,7 @@ header{
 }
 
 .ubicacion iframe{
-    width: ;
+    width: 80%;
 }
 
 /* -------------------footer---------------- */
@@ -337,4 +337,57 @@ footer{
 
 .contenedor_registro h2{
     margin-top: 5rem;
+}
+
+/* ------------mediaqueries---------- */
+
+@media screen and (max-width:1200px) {
+    header{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+    }
+
+    header .enlaces ul{
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .logo{
+        display: flex;
+    }
+    .enlaces{
+        width: 100%;
+        height: 10%;
+
+    }
+    .enlaces ul{
+        width: 100%;
+        height: 10%;
+        display: flex;
+        
+    }
+    .acceso{
+        display: none;
+    }
+    
+    .secundaria{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .ubicacion iframe{
+        display: none;
+    }
+
+    footer{
+        margin-top: 40rem;
+    }
+
 }
