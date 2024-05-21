@@ -277,8 +277,8 @@ header{
     padding-top: 6rem;
 }
 
-.ubicacion iframe{
-    width: 80%;
+iframe{
+    width: 100%;
 }
 
 /* -------------------footer---------------- */
