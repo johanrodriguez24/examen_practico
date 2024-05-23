@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MariachiTenampaDeGirardot</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/051bfd6557.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Mariachi El Tenampa de Girardot</title>
 </head>
 <body>
 
     <header>
 
         <div class="logo">
-                <img src="img/logo_principal/imagen_logo_tenampa.png" alt="">
+                <!-- <img src="img/logo_principal/imagen_logo_tenampa.png" alt=""> -->
         </div>
+
+        <img class="logo_tenampa" src="img/logo_principal/imagen_logo_tenampa.png" alt="">
           <div class="enlaces">
                 <ul>
                     <li> <a href="index.html">Inicio</a></li>
@@ -26,35 +29,31 @@
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
           </div>
+            
             <div class="acceso">
-
                 <a href="registro.html"><button class="registrate">Regístrate</button></a>
-                <input class="acceder" type="button" value="Acceder">
+                <a href="acceder.html"><input class="acceder" type="button" value="Acceder"></a>
             </div>
 
     </header>
 
     <main class="main_registro">
 
+        <h1>Ingresa ahora</h1>
         <div class="contenedor_registro">
-
-            <h2>Ingresa ahora</h2>
-
-            <form action="" method="get">
-
-
-                <input type="email" name="email" placeholder="E-mail"> 
-
-                <input type="text" name="contrasena" placeholder="Contraseña">
-                
-
+            
+            <form id="loginForm">
+                <input type="email" id="e-mail" name="email" placeholder="E-mail">
+                <input type="password" id="contra" name="contrasena" placeholder="Contraseña">
                 <input type="submit" id="enviar" value="Enviar">
 
+                <div class="checkbox__formulario">
+                    <input type="checkbox" id="terminos" name="terminos" />  Acepto los términos de privacidad
+                </div>
             </form>
-
         </div>
-
     </main>
-    
+
+    <script src="acceso.js"></script>
 </body>
 </html>
