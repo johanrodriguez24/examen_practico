@@ -488,6 +488,7 @@ form{
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+        gap: 1rem;
     }
     .ubicacion iframe{
         display: none;
@@ -523,6 +524,7 @@ form{
 .contenedor_info h3{
     text-align: center;
     padding-bottom: 2rem;
+    font-size: 2rem;
 }
 
 .detalles_footer{
